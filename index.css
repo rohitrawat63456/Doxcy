@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(203, 202, 202);
+}
+.navbar {
+  background-color: rgb(203, 203, 238);
+  border-radius: 10px;
+  height: 70px;
+  padding: 5px;
+  display: flex;
+}
+.navbar_list{
+  margin-left: 20%;
+  margin-top: 25px;
+  display: flex;
+  list-style: none;
+}
+.navbar_list li{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+}
+.logo{
+  height: 100%;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.hero_section {
+  height: 600px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero_img {
+  height: 100%;
+  width: 50%;
+}
+#doc_img {
+  height: 100%;
+  width: 100%;
+}
+.hero_content {
+  background: linear-gradient(to right, white, rgb(55, 54, 54));
+  height: 100%;
+  width: 50%;
+}
+.hero_content p {
+  margin-top: 15%;
+  font-size: xx-large;
+}
+#welcome_msg{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:60px;
+  font-style: italic;
+}
+.service_section {
+  background-color: rgb(172, 199, 172);
+  margin: 50px 0px 0px 0px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.service_card{
+  width: 10%;
+  height: 40%;
+  background-color: red;
+}
+.about_us {
+  background-color: rgb(204, 216, 180);
+  height: 200px;
+  border-radius: 50px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+#goal{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+  margin: 20px 0px 0px 0px;
+  background-color: blue;
+  border-radius: 10px;
+  height: 60px;
+}
