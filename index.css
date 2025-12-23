@@ -28,7 +28,6 @@ body {
   height: 600px;
   margin: 20px 0px 0px 0px;
   padding: 10px;
-  border-radius: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -41,7 +40,7 @@ body {
   width: 100%;
 }
 .hero_content {
-  background: linear-gradient(to right, white, rgb(55, 54, 54));
+  background: linear-gradient(to right, white, rgb(123, 121, 121));
   height: 100%;
   width: 50%;
 }
@@ -53,6 +52,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:60px;
   font-style: italic;
+  color: rgb(50, 216, 232);
 }
 .service_section{
   display: flex;
@@ -110,19 +110,25 @@ a p{
     height: 25%;
 }
 .about_us {
-  background-color: rgb(204, 216, 180);
+  background-color: rgb(205, 205, 205);
   height: 200px;
   border-radius: 50px;
   margin: 10px 40px;
   padding: 10px;
+  text-align: center;
+  color: #5a6c6c;
 }
 #goal{
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .footer {
-  margin: 20px 0px 0px 0px;
-  background-color: blue;
+  margin: 20px 40px;
+  padding: 20px;
+  background-color: rgb(200, 200, 210);
   border-radius: 10px;
   height: 60px;
+}
+#contact_heading{
+  text-align: center;
 }
