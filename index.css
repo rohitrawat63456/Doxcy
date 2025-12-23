@@ -8,18 +8,19 @@ body {
   padding: 5px;
   display: flex;
 }
-.navbar_list{
+.navbar_list {
   margin-left: 20%;
   margin-top: 25px;
   display: flex;
   list-style: none;
 }
-.navbar_list li{
+.navbar_list li {
   font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-left: 50px;
 }
-.logo{
+.logo {
   height: 100%;
   margin-left: 20px;
   border-radius: 4px;
@@ -48,66 +49,66 @@ body {
   margin-top: 15%;
   font-size: xx-large;
 }
-#welcome_msg{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:60px;
+#welcome_msg {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
   font-style: italic;
   color: rgb(50, 216, 232);
 }
-.service_section{
+.service_section {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
   background-color: rgb(200, 199, 198);
   height: 1200px;
   padding: 100px;
   margin: 0px 150px 0px 150px;
 }
-.service_card{
-    display: flex;
-    padding: 20px;
-    margin: 10px;
-    width: 380px;
-    height: 511px;
-    background-color:rgb(73, 73, 74);
-    border-radius: 10px;
-    border: 1px solid black;
+.service_card {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  width: 380px;
+  height: 511px;
+  background-color: rgb(73, 73, 74);
+  border-radius: 10px;
+  border: 1px solid black;
 }
-img{
-    height: 50%;
-    width: 100%;
-    border-radius:10px 10px 2px 2px ;
+img {
+  height: 50%;
+  width: 100%;
+  border-radius: 10px 10px 2px 2px;
 }
-#button{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    font-weight: bolder;
-    background-color: #249995;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-size: 16px;
+#button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  font-weight: bolder;
+  background-color: #249995;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
 }
-a{
-    text-decoration: none;
-    color: white;
-    font-size: large;
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
 }
-.place{
-    margin-top: 20px;
-    display: flex;
+.place {
+  margin-top: 20px;
+  display: flex;
 }
 a h3 {
-    display: inline;
-    font-size: 30px;
+  display: inline;
+  font-size: 30px;
 }
-a p{
-    position: relative;
-    margin-top: 20px;
-    font-family: sans-serif;
-    font-size: 16px;
-    height: 25%;
+a p {
+  position: relative;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 25%;
 }
 .about_us {
   background-color: rgb(205, 205, 205);
@@ -118,17 +119,38 @@ a p{
   text-align: center;
   color: #5a6c6c;
 }
-#goal{
+#goal {
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .footer {
-  margin: 20px 40px;
+  margin: 20px 400px;
   padding: 20px;
-  background-color: rgb(200, 200, 210);
+  background-color: rgb(221, 221, 226);
   border-radius: 10px;
-  height: 60px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
 }
-#contact_heading{
-  text-align: center;
+#contact_heading {
+  margin-left: 70px;
+  color: #588a8a;
+}
+.contact {
+  font-size: larger;
+}
+.contact img {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+#choice_heading{
+  color: #588a8a;
+}
+.choice_desc {
+  list-style: none;
+  margin-top: 10px;
+  font-size: larger;
 }
