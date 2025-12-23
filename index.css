@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(203, 202, 202);
+  background-color: #F4F6F8;
 }
 .navbar {
-  background-color: rgb(203, 203, 238);
-  border-radius: 10px;
+  background-color: #1F3C88;
+  border-radius: 12px;
   height: 70px;
   padding: 5px;
   display: flex;
@@ -13,6 +13,7 @@ body {
   margin-top: 25px;
   display: flex;
   list-style: none;
+  color: white;
 }
 .navbar_list li {
   font-size: large;
@@ -41,7 +42,7 @@ body {
   width: 100%;
 }
 .hero_content {
-  background: linear-gradient(to right, white, rgb(123, 121, 121));
+  background: linear-gradient(to right, #FFFFFF, #DCE3F0);
   height: 100%;
   width: 50%;
 }
@@ -53,13 +54,13 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
   font-style: italic;
-  color: rgb(50, 216, 232);
+  color:  #2EC4B6;
 }
 .service_section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: rgb(200, 199, 198);
+  background-color: #E9EDF3;
   height: 1200px;
   padding: 100px;
   margin: 0px 150px 0px 150px;
@@ -70,9 +71,9 @@ body {
   margin: 10px;
   width: 380px;
   height: 511px;
-  background-color: rgb(73, 73, 74);
+  background-color: #2C2F4A;
   border-radius: 10px;
-  border: 1px solid black;
+  border:none;
 }
 img {
   height: 50%;
@@ -84,10 +85,10 @@ img {
   height: 30px;
   margin-right: 10px;
   font-weight: bolder;
-  background-color: #249995;
+  background-color: #2EC4B6;
   border-radius: 5px;
   border: none;
-  color: white;
+  color: #1A1A1A;
   font-size: 16px;
 }
 a {
@@ -111,13 +112,13 @@ a p {
   height: 25%;
 }
 .about_us {
-  background-color: rgb(205, 205, 205);
+  background-color: #FFFFFF;
   height: 200px;
   border-radius: 50px;
   margin: 10px 40px;
   padding: 10px;
   text-align: center;
-  color: #5a6c6c;
+  color:  #5A6C7A;
 }
 #goal {
   font-size: 30px;
@@ -127,7 +128,7 @@ a p {
 .footer {
   margin: 20px 400px;
   padding: 20px;
-  background-color: rgb(221, 221, 226);
+  background-color: #1F3C88;
   border-radius: 10px;
   height: 250px;
   display: flex;
@@ -135,10 +136,11 @@ a p {
 }
 #contact_heading {
   margin-left: 70px;
-  color: #588a8a;
+  color: #2EC4B6
 }
 .contact {
   font-size: larger;
+  color: white;
 }
 .contact img {
   height: 30px;
@@ -147,9 +149,10 @@ a p {
   margin-right: 10px;
 }
 #choice_heading{
-  color: #588a8a;
+  color:  #2EC4B6;
 }
 .choice_desc {
+  color: white;
   list-style: none;
   margin-top: 10px;
   font-size: larger;
