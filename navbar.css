@@ -1,0 +1,92 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: #1f3556; /* add background so content not visible behind */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+/* Left Section */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  height: 70px; 
+  width: 70px;
+  border-radius: 100px;
+}
+
+.brand {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Center Menu */
+.navbar_list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar_list a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar_list a:hover {
+  color: #3b82f6;
+}
+
+/* Right Button */
+.btn {
+  background-color: #3b82f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ===== HAMBURGER ===== */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .navbar_list {
+    gap: 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar{
+    display: none;
+  }
+}

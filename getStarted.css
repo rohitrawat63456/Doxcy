@@ -1,0 +1,76 @@
+/* Section Background */
+.action-area {
+  padding: 80px 20px;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass Card */
+.action-wrapper {
+  background:#1e293b;
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 50px 40px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.action-heading {
+  font-size: 30px;
+  color: #f1f5f9;
+  margin-bottom: 35px;
+  line-height: 1.4;
+}
+
+.action-heading span {
+  color: #fbbf24; 
+}
+
+/* Button */
+.primary-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0f172a;
+  background: #38bdf8;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #fbbf24;
+  color: #0f172a;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .action-heading {
+    font-size: 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .action-wrapper {
+    padding: 35px 20px;
+  }
+
+  .action-heading {
+    font-size: 20px;
+  }
+
+  .primary-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}

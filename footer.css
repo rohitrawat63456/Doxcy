@@ -1,0 +1,88 @@
+/* ===== FOOTER SECTION ===== */
+
+footer {
+  background-color: #1f3556;   /* Dark blue background */
+  color: #ffffff;
+  padding: 60px 8%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Logo + About */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-logo i {
+  font-size: 28px;
+  color: #4da3ff;
+}
+
+.footer-description {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Contact Info */
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.footer-contact i {
+  color: #4da3ff;
+}
+
+/* Headings */
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Links */
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #4da3ff;
+  padding-left: 5px;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+}

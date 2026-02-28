@@ -1,0 +1,90 @@
+/* ===== FAQ SECTION ===== */
+
+.faq-section {
+  background: #0f172a;
+  padding: 80px 20px;
+  color: #f1f5f9;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* FAQ Item */
+.faq-item {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #1e293b;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* Question */
+.faq-question {
+  display: block;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  transition: 0.3s;
+}
+
+.faq-question:hover {
+  background: #334155;
+}
+
+/* Plus Icon */
+.faq-question::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+/* Answer */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background: #0f172a;
+}
+
+.faq-answer p {
+  padding: 15px 20px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* Show answer when checked */
+.faq-item input:checked ~ .faq-answer {
+  max-height: 200px;
+}
+
+/* Change + to - */
+.faq-item input:checked + .faq-question::after {
+  content: "-";
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .faq-title {
+    font-size: 24px;
+  }
+
+  .faq-question {
+    font-size: 14px;
+  }
+}
